@@ -1,0 +1,36 @@
+#skill .primary__title {
+  text-align: center;
+}
+
+#skill .skill__container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+@media (max-width: 1024px) {
+  #skill .skill__container {
+    grid-template-columns: 1fr;
+  }
+
+  #skill .skill__container .skill__card {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  #skill .skill__content {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #skill .skill__container {
+    gap: 1 rem;
+  }
+
+  #skill .skill__container .skill__card {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}

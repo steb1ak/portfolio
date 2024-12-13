@@ -37,7 +37,6 @@ const Footer = () => {
         </div>
         <div className="copyright__container">
           <h3>Copyright &copy; All rights reserved - | 2024</h3>
-          <p className="text__muted">Built by Grab Emilia</p>
         </div>
       </div>
     </footer>

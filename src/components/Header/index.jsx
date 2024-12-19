@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./Header.css";
 import Facts from "./Facts";
 import gsap from "gsap";
+import { profile1 } from "../../images";
 
 const Header = () => {
   const container = useRef(null);
@@ -74,6 +75,14 @@ const Header = () => {
               </p>
             </div>
             <Facts />
+            <div className="header__info__bottom">
+              <a href="/cv.pdf" download>
+                <button className="btn">Download CV</button>
+              </a>
+              <a href="mailto:steblakyaroslava@gmail.com" className="btn">
+                Email Me
+              </a>
+            </div>
           </div>
         </div>
         {/* <div className="column profile__wrapper">
